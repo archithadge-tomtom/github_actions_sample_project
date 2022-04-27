@@ -20,6 +20,9 @@ app.get("/test2",(req,res)=>{
     res.status(400).send("Endpoint 2 called successfully")
 })
 
-app.listen(8000,()=>{
-    console.log("Listening to port 8000");
-})
+// app.listen(8000,()=>{
+//     console.log("Listening to port 8000");
+// })
+
+console.log("Successfully called Index.js")
+
